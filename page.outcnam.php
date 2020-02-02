@@ -121,5 +121,5 @@ $schemes = $db->getAll($sql, array(), DB_FETCHMODE_ASSOC);
 
 <?php
 echo '<p align="center" style="font-size:11px;">This module is maintained by the developer community at the <a target="_blank" href="http://pbxossa.org">PBX Open Source Software Alliance</a>. Support, documentation and current versions are available at the module <a target="_blank" href="https://github.com/POSSA/freepbx-lenny_blacklist_mod">dev site</a>.';
-echo '<p align="center" style="font-size:11px;">Outbound CNAM Module version: '.$module_local[module][version].'</center>';
+echo '<p align="center" style="font-size:11px;">Outbound CNAM Module version: '.$module_local['module']['version'].'</center>';
 ?>
