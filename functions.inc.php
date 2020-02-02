@@ -90,7 +90,7 @@ function outcnam_vercheck() {
 		$module_remote = outcnam_xml2array("https://raw.github.com/POSSA/freepbx-Outbound_CNAM/master/module.xml");
 
 		
-		if ( $module_remote[module][version] > $module_local[module][version])
+		if ( $module_remote['module']['version'] > $module_local['module']['version'])
 			{
 			$newver = true;
 			}
